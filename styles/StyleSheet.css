@@ -1,0 +1,51 @@
+﻿/*-------- General --------*/
+
+
+.container {
+    max-width: 960px !important;
+}
+
+/*-------- Animate iFrame --------*/
+
+iframe {
+    display: block;
+    width: 960px;
+    height: 590px;
+    overflow: hidden;
+    outline: 0;
+    border: 0;
+    float: right;
+    margin: 0 -15px;
+}
+
+/*-------- Main Nav --------*/
+
+a.navbar-brand {
+    /*background-image: url(../images/logo.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 115px center;
+    padding-right: 50px;*/
+}
+
+/*-------- Modal --------*/
+
+#about .modal-body, .modal-title {
+    text-align: center;
+}
+
+#about .dialogWindowText {
+    background-image: url(../images/HIT-Logo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 65px;
+    width: 220px;
+    margin: 0 auto;
+    padding: 5px 65px 5px 0;
+    text-align: right;
+}
+
+#about .modal-header {
+    padding-bottom: 7px;
+}
+
